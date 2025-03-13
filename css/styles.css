@@ -58,11 +58,8 @@ img {
   align-items: center;
   justify-content: space-between;
 }
-.nav-link-studio,
-.nav-link-contacts,
-.nav-link-portfolio {
-  padding-top: 24px;
-  padding-bottom: 24px;
+.header-link {
+  padding: 24px 0;
 }
 .page-header {
   border-bottom: 1px solid #e7e9fc;
@@ -90,6 +87,7 @@ img {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
+
 .nav-link .link:hover,
 .nav-link .link:focus {
   color: #404bbf;
@@ -107,7 +105,8 @@ img {
 .address-link .link:focus {
   color: #404bbf;
 }
-/*andragion*/
+/*#region*/
+/*#endregion*/
 /*SECTION-ONE*/
 .section-one {
   background-color: #2e2f42;
@@ -121,7 +120,7 @@ img {
   text-align: center;
   color: #ffffff;
   max-width: 496px;
-  margin-left: 288px;
+  margin: 0 auto;
 }
 
 .butt {
@@ -238,6 +237,7 @@ img {
 .section-four {
   padding-top: 120px;
   padding-bottom: 120px;
+  border-top: none;
 }
 
 .flex-four {
