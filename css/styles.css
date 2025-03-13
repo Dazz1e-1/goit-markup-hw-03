@@ -67,8 +67,11 @@ img {
 .page-header {
   border-bottom: 1px solid #e7e9fc;
 }
-.address-link-item,
+.address-link-item {
+  gap: 40px;
+}
 .nav-link {
+  width: 261px;
   gap: 40px;
 }
 .logo {
@@ -83,7 +86,7 @@ img {
 .logo .studio {
   color: #2e2f42;
 }
-.nav-link .link {
+.nav-link .header-link {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -125,6 +128,7 @@ img {
   color: #ffffff;
   max-width: 496px;
   margin: 0 auto;
+  margin-bottom: 48px;
 }
 
 .butt {
@@ -136,8 +140,7 @@ img {
   letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
-  margin-left: 480px;
-  margin-top: 48px;
+  margin: 0 auto;
   border-radius: 4px;
   padding: 16px 32px;
   min-width: 169px;
