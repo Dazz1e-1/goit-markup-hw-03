@@ -58,15 +58,12 @@ img {
   align-items: center;
   justify-content: space-between;
 }
-.page-nav,
-.address-link {
+.nav-link-studio,
+.nav-link-contacts,
+.nav-link-portfolio {
   padding-top: 24px;
   padding-bottom: 24px;
 }
-/*.container {
-  padding-top: 24px;
-  padding-bottom: 24px;
-}*/
 .page-header {
   border-bottom: 1px solid #e7e9fc;
 }
@@ -169,7 +166,7 @@ img {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-.section-two .container {
+.section-two {
   padding-top: 120px;
   padding-bottom: 120px;
   min-width: 1128px;
@@ -203,9 +200,10 @@ img {
 .flex-team {
   display: flex;
   gap: 24px;
-  padding-bottom: 120px;
 }
 .section-three {
+  padding-top: 120px;
+  padding-bottom: 120px;
   background-color: #f4f4fd;
   text-transform: capitalize;
 }
@@ -218,7 +216,6 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-  padding-top: 120px;
   margin-bottom: 72px;
 }
 .section-three .title {
@@ -238,19 +235,24 @@ img {
   color: #434455;
 }
 /*SECTION-FOUR*/
+.section-four {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 .flex-four {
   display: flex;
   gap: 24px;
   flex-wrap: wrap;
+  row-gap: 48px;
 }
 .porfolio-item {
-  border: 1px solid #e7e9fc;
-  row-gap: 48px;
   width: calc((100% - 48px) / 3);
 }
 .porfolio-item-content {
   padding: 32px 16px;
   border-top: none;
+  border: 1px solid #e7e9fc;
 }
 .section-four .title-main {
   text-transform: capitalize;
@@ -259,7 +261,6 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-  margin-top: 120px;
   margin-bottom: 72px;
 }
 .section-four .title {
@@ -268,6 +269,7 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .section-four .text {
   font-size: 16px;
